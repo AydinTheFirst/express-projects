@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #222222;
+}
+
+/* Login Panel */
+
+#login-panel {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: #2d3832;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#lgnBtn {
+  width: 100%;
+  background-color: #2cdc32;
+  color: white;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Login Panel End*/
+h2 {
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+  background-color: #222222;
+  border-bottom: 1px solid white;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+#chat-container {
+  max-width: 400px;
+  margin: 30px auto;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#chat-window {
+  height: 400px;
+  overflow-y: auto;
+  background-color: #372948;
+}
+
+#messages p {
+  margin: 5px;
+  max-width: 380px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3C4048;
+  color: white;
+  font-weight: bold;
+}
+
+#messages strong {
+  color: blueviolet;
+}
+
+#feedback {
+  font-size: 12px;
+  padding: 10px;
+  display: flex;
+}
+
+#form {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0.25rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 3rem;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid white;
+  border-radius: 0 0 10px 10px;
+}
+
+.inp {
+  border: none;
+  padding: 0 1rem;
+  flex-grow: 1;
+  border-radius: 2rem;
+  margin: 0.25rem;
+}
+
+.inp:focus {
+  outline: none;
+}
+
+#form > input[type="submit"] {
+  background: #333;
+  border: none;
+  padding: 0 1rem;
+  margin: 0.25rem;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+}
